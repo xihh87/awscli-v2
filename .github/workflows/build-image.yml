@@ -24,4 +24,4 @@ jobs:
         uses: docker/build-push-action@v3
         with:
           push: true
-          tags: docker.io/xihh87/awscli-v2:${{ github.sha }}
+          tags: xihh87/awscli-v2:${{ github.sha }}

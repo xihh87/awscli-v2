@@ -2,4 +2,4 @@ name: "AWS cli v2"
 description: "Runs awscli-v2"
 runs:
   using: docker
-  image: docker.io/xihh87/awscli-v2:2.8.5
+  image: Dockerfile

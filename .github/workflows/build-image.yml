@@ -22,6 +22,5 @@ jobs:
       - name: Build and push
         uses: docker/build-push-action@v3
         with:
-          context: .
           push: true
-          tags: xihh86/awscli-v2:${{ github.sha }}
+          tags: xihh87/awscli-v2:${{ github.sha }}

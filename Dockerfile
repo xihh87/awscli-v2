@@ -5,4 +5,4 @@ ENV AWS_CLI_VERSION='2.8.5'
 RUN apk add -u --no-cache git groff \
 && python -m pip --no-cache-dir install git+https://github.com/aws/aws-cli#${AWS_CLI_VERSION}
 
-ENTRYPOINT ["/bin/sh"]
+ENTRYPOINT ["/usr/local/bin/aws"]

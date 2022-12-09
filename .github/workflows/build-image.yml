@@ -15,7 +15,7 @@ jobs:
       - name: Login to docker hub
         uses: docker/login-action@v2
         with:
-          registry: xihh87/awscli-v2
+          registry: docker.io/xihh87/awscli-v2
           username: ${{ secrets.DOCKER_HUB_USER }}
           password: ${{ secrets.DOCKER_HUB_TOKEN }}
       # https://github.com/marketplace/actions/build-and-push-docker-images
